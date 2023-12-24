@@ -1,5 +1,8 @@
+<div align="center">
 # DL3DV-10K Dataset
-This repo helps you get ready to download all the DL3DV dataset.
+** DL3DV-10K is a dataset of real-world scene-level videos with scene annotations.**
+This repo helps you get ready to download all the DL3DV-10K dataset.
+<img src="imgs/img_2.jpg" width="600px">
 
 ## Updates (2023-10-22)
 - [ ] Benchmark Dataset Release
@@ -9,6 +12,17 @@ This repo helps you get ready to download all the DL3DV dataset.
 	- [ ] Sample videos 
 
 - [ ] 10K Full Dataset Release
+
+---
+<p align="center">
+  <a href="[https://dl3dv-10k.github.io/DL3DV-10K/]">Website</a> •
+  <a href="#dataset-format">Dataset Format</a> •
+  <a href="#tutorials">Tutorials</a> •
+  <a href="#license">License</a>
+</p>
+
+</div>
+
 
 
 ## DL3DV Novel View Synthesis Benchmark 
