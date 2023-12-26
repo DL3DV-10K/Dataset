@@ -30,6 +30,9 @@ We report the performances of the main STOA methods (2023 Fall) on our large-sca
 ![Benchmark Table](imgs/nvs-benchmark-tables.jpg)
 ![Benchmark Plot](imgs/nvs-benchmark-plot.jpg)
 
+### Benchmark Sample 
+https://huggingface.co/datasets/ysheng/DL3DV-10K/tree/main
+
 ### Benchmark Download 
 A benchmark sample (~15 videos that cover challenging real-world scenes) can be found in TODO.  
 Please send an email to `ling58@purdue.edu` to get instructions to download the full benchmark.   
