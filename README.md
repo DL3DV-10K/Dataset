@@ -28,8 +28,13 @@ We introduce DL3DV-10K, a large-scale, scene dataset capturing real-world scenar
 - Benchmark videos offer trained parameters from the SOTA NVS methods, including 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant-NGP, and Nerfacto.
 
 
+## DL3DV Novel View Synthesis Benchmark 
+We report the performances of the main STOA methods (2023 Fall) on our large-scale NVS benchmark. Here is the quantitative results. Please refer to our paper for more details (e.g. more quantitative and qualitative results.)
+<img src="imgs/nvs-benchmark-comparsion.jpg" alt="Benchmark Table" width="600px">
+Performance on the benchmark. The error metric is calculated from the mean of 140 scenes on a scale factor of 4. Zip-NeRF uses the default batch size (65536) and Zip-NeRF* uses the identical batch size as other methods (4096). Note, the training time and memory usage may be different depending on various configurations. 
 
 
+A presents the density plot of PSNR and SSIM and their relationship on \benchmark~for each method. B describes the performance comparison by scene complexity. The text above the bar plot is the mean value of the methods on the attribute.
 
 ## Updates (2023-10-22)
 - [ ] Benchmark Dataset Release
