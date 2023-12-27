@@ -31,10 +31,39 @@ We introduce DL3DV-10K, a large-scale, scene dataset capturing real-world scenar
 ## DL3DV Novel View Synthesis Benchmark 
 We report the performances of the main STOA methods (2023 Fall) on our large-scale NVS benchmark. Here is the quantitative results. Please refer to our paper for more details (e.g. more quantitative and qualitative results.)
 <img src="imgs/nvs-benchmark-comparsion.jpg" alt="Benchmark Table" width="600px">
+
 Performance on the benchmark. The error metric is calculated from the mean of 140 scenes on a scale factor of 4. Zip-NeRF uses the default batch size (65536) and Zip-NeRF* uses the identical batch size as other methods (4096). Note, the training time and memory usage may be different depending on various configurations. 
 
+<img src="imgs/nvs-benchmark-comparsion-plot.jpg" alt="Benchmark Table" width="1000px">
 
 A presents the density plot of PSNR and SSIM and their relationship on \benchmark~for each method. B describes the performance comparison by scene complexity. The text above the bar plot is the mean value of the methods on the attribute.
+
+## Data Preparation
+- [ ] Data Scale
+![Dataset Quantity](imgs/dataset-quantity.jpg)
+DL3DV-10K has more than **10K** high quality videos that cover diverse real-world scenes for 3D vision tasks.
+
+- [ ] Data collection
+      
+We have formulated the following requirements as guidelines for recording high-quality scene-level videos:
+<img src="imgs/video_shooting_example.jpg" alt="Benchmark Table" width="600px">
+
+ - [-] The scene coverage is in the circle or half-circle with a 30 secs-45 secs walking diameter and has at least five instances with a natural arrangement. 
+ - [-] The default focal length of the camera corresponds to the 0.5x ultra-wide mode for capturing a wide range of background information.  
+ - [-] Each video has a horizontal view of at least 180◦ or 360◦ from different heights, including overhead and waist. It offers high-density views of objects within the coverage area.
+ - [-] The video resolution should be 4K and have 60 fps (or 30 fps).
+ - [-] The video's length should be at least 60 secs for mobile phone capture and 45 secs for drone video recording.
+ - [-] We recommend limiting the duration of moving objects in the video to under 3 secs, with a maximum allowance of 10 secs.
+ - [-] The frames should not be motion-blurred or overexposed, and the captured objects should be stereoscopic. 
+
+
+
+- [ ] Data statistics
+      
+      [Visit DL3DV-10K Website](https://dl3dv-10k.github.io/DL3DV-10K/)
+
+
+
 
 ## Updates (2023-10-22)
 - [ ] Benchmark Dataset Release
