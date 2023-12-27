@@ -1,17 +1,11 @@
 <div align="center">
-# DL3DV-10K Dataset
+# DL3DV-10K Dataset 
+	
 ** DL3DV-10K is a dataset of real-world scene-level videos with scene annotations.**
+
 This repo helps you get ready to download all the DL3DV-10K dataset.
-<img src="imgs/img_2.jpg" width="600px">
 
-## Updates (2023-10-22)
-- [ ] Benchmark Dataset Release
-	- [-] Benchmark statistics 
-	- [-] Benchmark training results  
-	- [-] Raw videos 
-	- [ ] Sample videos 
-
-- [ ] 10K Full Dataset Release
+<img src="imgs/img_2.jpg" width="1000px">
 
 ---
 <p align="center">
@@ -22,6 +16,31 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
 </p>
 
 </div>
+
+We introduce DL3DV-10K, a large-scale, scene dataset capturing real-world scenarios. DL3DV-10K contains 51.2 million frames from 10,510 videos at 4K resolution spanning 65 types of point-of-interest (POI) locations, covering a wide range of everyday areas. With the fine-grained annotation on scene diversity, DL3DV-10K covers indoor and outdoor scenes with different levels of reflection, transparency, and lighting. DL3DV-10K enables a comprehensive benchmark for novel view synthesis and supports learning-based 3D representation techniques in acquiring a universal prior at scale.
+
+
+## Key Feature
+- 10,510 videos covering 51.2 million frames at 4k resolution.
+- 140 videos as Novel view synthesis (NVS) benchmark.
+- All videos are annotated by scene environment (indoor vs. outdoor), levels of reflection, transparency, and lighting.
+- Released samples include camera pose and point cloud.
+- Benchmark videos offer trained parameters from the SOTA NVS methods, including 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant-NGP, and Nerfacto.
+
+
+
+
+
+## Updates (2023-10-22)
+- [ ] Benchmark Dataset Release
+	- [-] Benchmark statistics 
+	- [-] Benchmark training results  
+	- [-] Raw videos 
+	- [ ] Sample videos 
+
+- [ ] 10K Full Dataset Release
+
+
 
 
 
