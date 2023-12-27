@@ -21,7 +21,7 @@ We introduce DL3DV-10K, a large-scale, scene dataset capturing real-world scenar
 
 
 ## Key Feature
-- 10,510 videos covering 51.2 million frames at 4k resolution.
+- 10,510 multi-view scenes covering 51.2 million frames at 4k resolution.
 - 140 videos as Novel view synthesis (NVS) benchmark.
 - All videos are annotated by scene environment (indoor vs. outdoor), levels of reflection, transparency, and lighting.
 - Released samples include camera pose and point cloud.
