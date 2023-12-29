@@ -91,8 +91,19 @@ Access here: https://huggingface.co/datasets/ysheng/DL3DV-10K/tree/main
 ## License
 
 ## BibTeX
-TODO
+If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/2312.16256).
 
+```
+@misc{ling2023dl3dv10k,
+      title={DL3DV-10K: A Large-Scale Scene Dataset for Deep Learning-based 3D Vision}, 
+      author={Lu Ling and Yichen Sheng and Zhi Tu and Wentian Zhao and Cheng Xin and Kun Wan and Lantao Yu and Qianyu Guo and Zixun Yu and Yawen Lu and Xuanmao Li and Xingpeng Sun and Rohan Ashok and Aniruddha Mukherjee and Hao Kang and Xiangrui Kong and Gang Hua and Tianyi Zhang and Bedrich Benes and Aniket Bera},
+      year={2023},
+      eprint={2312.16256},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+```
 
 <!-- ## Dataset Distributions
 
