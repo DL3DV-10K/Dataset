@@ -80,9 +80,11 @@ We have formulated the following requirements as guidelines for recording high-q
 Access here: https://huggingface.co/datasets/ysheng/DL3DV-10K/tree/main
 
 - [ ] Benchmark dataset release
-	- [x] Sample videos 
-	- [ ] Raw videos
-         - Please send an email to `ling58@purdue.edu` to get instructions to download the full benchmark.   
+	- [x] Raw videos
+	- [ ] Benchmark images, camera pose (**Coming soon**)
+         - Please send an email to `ling58@purdue.edu` to get instructions to download the full benchmark.
+   	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
+
 
 - [ ] 10K Full Dataset Release
       
