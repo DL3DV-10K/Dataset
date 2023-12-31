@@ -1,10 +1,8 @@
 # License
 
-The **DL3DV-10K** dataset is available under the DL3DV-10K Term of use and Creative Commons Attribution-NonCommercial 4.0 International License.
-
+The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and Creative Commons Attribution-NonCommercial 4.0 International License.
 
 ## Terms of Use
-
 Before we are able to offer you access to the DL3DV-10 benchmark, please agree to the following terms of use.
 
 After approval, you (the "Researcher") receive permission to use the DL3DV-10K dataset (the ‘Dataset’). In exchange for being able to join the DL3DV-10K community and receive such permission, Researcher hereby agrees to the following terms and conditions:
@@ -16,8 +14,6 @@ After approval, you (the "Researcher") receive permission to use the DL3DV-10K d
 6. DL3DV-10K organization reserves the right to terminate the Researcher's access to the Dataset at any time. 
 7. If Researcher is employed by a for-profit, commercial entity, Researcher's employer shall also be bound by these terms and conditions, and Researcher hereby represents that he or she is fully authorized to enter into this agreement on behalf of such employer. 
 8. The law of the Indiana State shall apply to all disputes under this agreement.
-
-
 
 ## Creative Commons Attribution-NonCommercial (CC BY-NC)
 
