@@ -92,7 +92,7 @@ Access here: https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main
 
 ## License
 
-DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License. The **[DL3DV-10K Terms of Use]**  and the [copy](https://github.com/google-research-datasets/Objectron/blob/master/LICENSE) of the license are available in this repository.
+DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License. The **[DL3DV-10K Terms of Use]**  and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
 
 Copyright (c) 2023
 
