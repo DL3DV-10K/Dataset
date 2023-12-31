@@ -77,7 +77,7 @@ We have formulated the following requirements as guidelines for recording high-q
 
 ## Dataset Format
 - [x] Free download sample videos
-Access here: https://huggingface.co/datasets/ysheng/DL3DV-10K/tree/main
+Access here: https://huggingface.co/datasets/DL3DV/DL3DV-10K/tree/main
 
 - [ ] Benchmark dataset release
 	- [x] Raw videos
