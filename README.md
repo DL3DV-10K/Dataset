@@ -15,6 +15,7 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
   <a href="#data-preparation">Data Preparation</a> •
   <a href="#dataset-format">Dataset Format</a> •
   <a href="#license">License</a> •
+  <a href="#issues">Issues</a> •
   <a href="#bibtex">BibTex</a> 
 	
 </p>
@@ -95,6 +96,10 @@ Access here: https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main
 DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License. The **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**  and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
 
 Copyright (c) 2023
+
+## Issues
+Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes, please directly contact us at [issue](ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
+
 
 ## BibTeX
 If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/2312.16256).
