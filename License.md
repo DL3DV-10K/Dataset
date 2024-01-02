@@ -1,6 +1,7 @@
 # License
 
 The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and Creative Commons Attribution-NonCommercial 4.0 International License.
+
 **Disclaimer**: The license and conditions of use for this dataset (DL3DV-10K) are subject to the following provisions. 
 The ultimate interpretation right of this dataset belongs to the DL3DV-10K organization. We reserve the right to modify the license and terms of use at any time and advise users to review them regularly for any changes. Continued use of this dataset means you're accepting these modifications.
 
