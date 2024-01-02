@@ -98,7 +98,7 @@ DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released
 Copyright (c) 2023
 
 ## Issues
-Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes, please directly contact us at [issue](ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
+Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes), don't hesitate to get in touch with us at [issue](mailto:ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
 
 
 ## BibTeX
