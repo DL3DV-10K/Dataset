@@ -9,16 +9,16 @@ The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and C
 
 ## Terms of Use
 Before we are able to offer you access to the DL3DV-10 benchmark, please agree to the following terms of use.
-
 After approval, you (the "Researcher") receive permission to use the DL3DV-10K dataset (the ‘Dataset’). In exchange for being able to join the DL3DV-10K community and receive such permission, Researcher hereby agrees to the following terms and conditions:
-1. The researcher shall use the Dataset only for non-commercial research and educational purposes. 
+1. Researcher shall use the Dataset only for non-commercial research and educational purposes. 
 2. DL3DV-10K organization, Purdue University, and Wormpex AI Research make no representations or warranties regarding the dataset, including but not limited to warranties of non-infringement or fitness for a particular purpose. 
-3. The researcher accepts full responsibility for his/her/their use of the dataset and shall defend and indemnify DL3DV-10K organization, Purdue University, and Wormpex AI Research, including their employees, Trustees, officers and agents, against any and all claims arising from Researcher's use of the Dataset, including but not limited to the researcher's use of any copies of copyrighted 3D models that he or she may create from the dataset. 
-4. The researcher may provide research associates and colleagues with access to the Dataset after the receiving entity has also agreed to and signed these terms and conditions. Sharing the data otherwise is strictly prohibited.
-5. Following General Data Protection Regulation, the Researcher must ensure that they can delete all person-specific data upon request.
-6. DL3DV-10K organization reserves the right to terminate the Researcher's access to the Dataset at any time. 
-7. If the Researcher is employed by a for-profit, commercial entity, the Researcher's employer shall also be bound by these terms and conditions, and the Researcher hereby represents that he/she/they is/are fully authorized to enter into this agreement on behalf of such employer.
+3. Researcher accepts full responsibility for his/her/their use of the Dataset and shall defend and indemnify DL3DV-10K organization, Purdue University, and Wormpex AI Research, including their employees, Trustees, officers and agents, against any and all claims arising from Researcher's use of the Dataset, including but not limited to Researcher's use of any copies of copyrighted 3D models that he/she/they may create from the dataset. 
+4. Researcher may provide research associates and colleagues with access to the Dataset, after receiving entity has also agreed to and signed these terms and conditions. Sharing the data otherwise is strictly prohibited.
+5. Following General Data Protection Regulation, Researcher must ensure that they can delete all person-specific data upon request.
+6. DL3DV-10K organization reserves the right to terminate Researcher's access to the Dataset at any time. 
+7. If Researcher is employed by a for-profit, commercial entity, Researcher's employer shall also be bound by these terms and conditions, and Researcher hereby represents that he/she/they is/are fully authorized to enter into this agreement on behalf of such employer. 
 8. The law of the Indiana State shall apply to all disputes under this agreement.
+
 
 ## Creative Commons Attribution-NonCommercial (CC BY-NC)
 
