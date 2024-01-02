@@ -4,7 +4,7 @@ The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and C
 
 **Disclaimer**: The license and conditions of use for this dataset (DL3DV-10K) are subject to the following provisions. 
 1. The ultimate interpretation right of this dataset belongs to the DL3DV-10K organization. We reserve the right to modify the license and terms of use at any time and advise users to review them regularly for any changes. Continued use of this dataset means you're accepting these modifications.
-2. Refering to [Issue]() in this repository, all users of the DL3DV-10K dataset are required to handle any personal or sensitive information they encounter. This includes the obligation to delete or obscure any such data in their usage of the dataset, in adherence to privacy and ethical standards.
+2. Refering to [Issue](https://github.com/DL3DV-10K/Dataset/tree/main?tab=readme-ov-file#issues) in this repository, all users of the DL3DV-10K dataset are required to handle any personal or sensitive information they encounter. This includes the obligation to delete or obscure any such data in their usage of the dataset, in adherence to privacy and ethical standards.
 
 
 ## Terms of Use
