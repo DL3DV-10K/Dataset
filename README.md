@@ -35,7 +35,7 @@ We have witnessed significant progress in deep learning-based 3D vision, ranging
 
 
 ## NVS Benchmark Training Results
-We report the performances of the main STOA methods (2023 Fall) on our large-scale NVS benchmark. Here is the quantitative results. Please refer to our paper for more details (e.g. more quantitative and qualitative results.)
+We report the performances of the main STOA methods (2023 Fall) on our large-scale NVS benchmark. Here are the quantitative results. Please refer to our paper for more details (e.g. more quantitative and qualitative results.)
 
 <div align="center">
 <img src="imgs/nvs-benchmark-comparsion.jpg" alt="Benchmark Table" width="600px">
