@@ -9,7 +9,7 @@ The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and C
 
 ## Terms of Use
 Before we are able to offer you access to the DL3DV-10 benchmark, please agree to the following terms of use.
-After approval, you (the "Researcher") receive permission to use the DL3DV-10K dataset (the ‘Dataset’). In exchange for being able to join the DL3DV-10K community and receive such permission, Researcher hereby agrees to the license and the following terms and conditions:
+After approval, you (the "Researcher") receive permission to use the DL3DV-10K dataset (the ‘Dataset’). In exchange for being able to join the DL3DV-10K community and receive such permission, Researcher hereby agrees to its license and the following terms and conditions:
 1. Researcher shall use the Dataset only for non-commercial research and educational purposes. 
 2. DL3DV-10K organization makes no representations or warranties regarding the dataset, including but not limited to warranties of non-infringement or fitness for a particular purpose. 
 3. Researcher accepts full responsibility for his/her/their use of the Dataset and shall defend and indemnify DL3DV-10K organization, including its members, employees, Trustees, officers and agents, against any and all claims arising from Researcher's use of the Dataset, including but not limited to Researcher's use of any copies of copyrighted 3D models that he/she/they may create from the dataset. 
