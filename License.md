@@ -4,15 +4,15 @@ The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and C
 
 **Disclaimer**: The license and conditions of use for this dataset (DL3DV-10K) are subject to the following provisions. 
 1. The ultimate interpretation right of this dataset belongs to the DL3DV-10K organization. We reserve the right to modify the license and terms of use at any time and advise users to review them regularly for any changes. Continued use of this dataset means you're accepting these modifications.
-2. Refering to [Issue](https://github.com/DL3DV-10K/Dataset/tree/main?tab=readme-ov-file#issues) in this repository, the researcher accepts full responsibility for his/her/their use of the dataset. This includes the obligation to delete or obscure any such data in their usage of the dataset, in adherence to privacy and ethical standards.
+2. Refering to [Issue](https://github.com/DL3DV-10K/Dataset/tree/main?tab=readme-ov-file#issues) in this repository, the researcher acknowledges and accepts full responsibility for his/her/their use of the dataset. This responsibility encompasses the obligation to delete or obscure any data in their possession that may violate privacy or ethical standards as stipulated by our guidelines. The researcher should continuously monitor for any updates or changes to these standards and promptly adjust their usage of the dataset accordingly, ensuring compliance at all times.
 
 
 ## Terms of Use
 Before we are able to offer you access to the DL3DV-10 benchmark, please agree to the following terms of use.
 After approval, you (the "Researcher") receive permission to use the DL3DV-10K dataset (the ‘Dataset’). In exchange for being able to join the DL3DV-10K community and receive such permission, Researcher hereby agrees to the following terms and conditions:
 1. Researcher shall use the Dataset only for non-commercial research and educational purposes. 
-2. DL3DV-10K organization, and Purdue University make no representations or warranties regarding the dataset, including but not limited to warranties of non-infringement or fitness for a particular purpose. 
-3. Researcher accepts full responsibility for his/her/their use of the Dataset and shall defend and indemnify DL3DV-10K organization, and Purdue University, including their employees, Trustees, officers and agents, against any and all claims arising from Researcher's use of the Dataset, including but not limited to Researcher's use of any copies of copyrighted 3D models that he/she/they may create from the dataset. 
+2. DL3DV-10K organization makes no representations or warranties regarding the dataset, including but not limited to warranties of non-infringement or fitness for a particular purpose. 
+3. Researcher accepts full responsibility for his/her/their use of the Dataset and shall defend and indemnify DL3DV-10K organization, including their employees, Trustees, officers and agents, against any and all claims arising from Researcher's use of the Dataset, including but not limited to Researcher's use of any copies of copyrighted 3D models that he/she/they may create from the dataset. 
 4. Researcher may provide research associates and colleagues with access to the Dataset, after receiving entity has also agreed to and signed these terms and conditions. Sharing the data otherwise is strictly prohibited.
 5. Following General Data Protection Regulation, Researcher must ensure that they can delete all person-specific data upon request.
 6. DL3DV-10K organization reserves the right to terminate Researcher's access to the Dataset at any time. 
