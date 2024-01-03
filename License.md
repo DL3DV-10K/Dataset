@@ -2,7 +2,7 @@
 
 The **DL3DV-10K** dataset is available under the **DL3DV-10K Term of use** and Creative Commons Attribution-NonCommercial 4.0 International License.
 
-**Disclaimer**: The license and conditions of use for this dataset (DL3DV-10K) are subject to the following provisions. 
+**Disclaimer**: The license and terms of use for this dataset (DL3DV-10K) are subject to the following provisions. 
 1. The ultimate interpretation right of this dataset belongs to the DL3DV-10K organization. We reserve the right to modify the license and terms of use at any time and advise users to review them regularly for any changes. Continued use of this dataset means you're accepting these modifications.
 2. Refering to [Issue](https://github.com/DL3DV-10K/Dataset/tree/main?tab=readme-ov-file#issues) in this repository, the researcher acknowledges and accepts full responsibility for his/her/their use of the dataset. This responsibility encompasses the obligation to delete or obscure any data in their possession that may violate privacy or ethical standards as stipulated by our guidelines. The researcher should continuously monitor for any updates or changes to these standards and promptly adjust their usage of the dataset accordingly, ensuring compliance at all times.
 
