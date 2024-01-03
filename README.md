@@ -30,7 +30,7 @@ We have witnessed significant progress in deep learning-based 3D vision, ranging
 - 10,510 multi-view scenes covering 51.2 million frames at 4k resolution.
 - 140 videos as Novel view synthesis (NVS) benchmark.
 - All videos are annotated by scene environment (indoor vs. outdoor), levels of reflection, transparency, and lighting.
-- Released samples include camera pose and point cloud.
+- Released samples include colmap calculated camera pose.
 - Benchmark videos offer trained parameters from the SOTA NVS methods, including 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant-NGP, and Nerfacto.
 
 
