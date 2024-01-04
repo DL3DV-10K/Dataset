@@ -10,7 +10,7 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
 
 ---
 <p align="center">
-  <a href="[https://dl3dv-10k.github.io/DL3DV-10K/]">Website</a> •
+  <a href="https://dl3dv-10k.github.io/DL3DV-10K/">Website</a> •
   <a href="#nvs-benchmark-training-results">NVS Benchmark Training Results</a> •
   <a href="#data-preparation">Data Preparation</a> •
   <a href="#dataset-format">Dataset Format</a> •
