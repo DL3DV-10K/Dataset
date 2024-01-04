@@ -82,8 +82,9 @@ Access here: https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main
 
 - [ ] Benchmark dataset release
 	- [x] Raw videos
-	- [ ] Benchmark images, camera pose (**Coming soon**)
-         - Please send an email to `ling58@purdue.edu` to get instructions to download the full benchmark.
+	- [x] Benchmark images, camera pose (**Ready for download**)
+         * Step 1: The user requests **[here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Benchmark)**.
+         * Step 2: The user is expected to sign the **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)** and send it to `ling58@purdue.edu` to get instructions to download the full benchmark.
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
 
