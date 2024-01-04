@@ -77,10 +77,11 @@ We have formulated the following requirements as guidelines for recording high-q
 <a href="https://dl3dv-10k.github.io/DL3DV-10K/">Visit DL3DV-10K Website</a>
 
 ## Dataset Format
-- [x] Free download sample videos
-Access here: https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main
+- [x] Free download sample videos (11 scenes)
+	- [x] Access [here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main)
 
-- [ ] Benchmark dataset release
+
+- [ ] Benchmark dataset release (140 scenes)
 	- [x] Raw videos
 	- [x] Benchmark images, camera pose (**Ready for download**)
          * Step 1: The user requests **[here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Benchmark)**.
