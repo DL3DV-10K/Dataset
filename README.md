@@ -72,9 +72,9 @@ We have formulated the following requirements as guidelines for recording high-q
  - The frames should not be motion-blurred or overexposed, and the captured objects should be stereoscopic. 
 
 
-
 ### Data statistics
 <a href="https://dl3dv-10k.github.io/DL3DV-10K/">Visit DL3DV-10K Website</a>
+
 
 ## Dataset Format
 - [x] Free download sample videos (11 scenes)
@@ -101,6 +101,8 @@ Copyright (c) 2023
 
 ## Issues
 Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes), don't hesitate to get in touch with us at [issue](mailto:ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
+
+**Want to contribute the DL3DV-10K dataset?** Upload your video [here](https://app.box.com/s/df2splzjgd6bkwea02x8lx13wbstd62t).
 
 
 ## BibTeX
