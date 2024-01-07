@@ -97,7 +97,7 @@ We have formulated the following requirements as guidelines for recording high-q
 
 DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License. The **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
 
-Copyright (c) 2023
+Copyright (c) 2024
 
 ## Issues
 Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes), don't hesitate to get in touch with us at [issue](mailto:ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
