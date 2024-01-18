@@ -90,6 +90,7 @@ We have formulated the following requirements as guidelines for recording high-q
 
 
 - [ ] 10K Full Dataset Release
+	- [x] 1K videos are ready for download.
       
 **The downloading site is still under developping. Stay tuned!**
 
