@@ -13,7 +13,7 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
   <a href="https://dl3dv-10k.github.io/DL3DV-10K/">Website</a> •
   <a href="#nvs-benchmark-training-results">NVS Benchmark Training Results</a> •
   <a href="#data-preparation">Data Preparation</a> •
-  <a href="#dataset-format">Dataset Format</a> •
+  <a href="#dataset-download">Dataset Download</a> •
   <a href="#license">License</a> •
   <a href="#issues">Issues</a> •
   <a href="#bibtex">BibTex</a> 
@@ -76,7 +76,7 @@ We have formulated the following requirements as guidelines for recording high-q
 <a href="https://dl3dv-10k.github.io/DL3DV-10K/">Visit DL3DV-10K Website</a>
 
 
-## Dataset Format
+## Dataset Download
 - [x] Free download sample videos (11 scenes)
 	- [x] Access [here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main)
 
