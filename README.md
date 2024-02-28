@@ -89,8 +89,11 @@ We have formulated the following requirements as guidelines for recording high-q
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
 
-- [ ] 10K Full Dataset Release. Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the dataset from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
-	- [x] 1K videos are ready for download.
+- [ ] 10K Full Dataset Release.
+	- [x] DL3DV-3K is available: inlcuding 3K scenes at 1080p resolution and camera pose.
+	- [x] DL3DV-1K video is available: including 1K videos at 4k resolution.
+	- [x] Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the dataset from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
+
       
 **The downloading site is still under developping. Stay tuned!**
 
