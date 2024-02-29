@@ -94,11 +94,11 @@ We have formulated the following requirements as guidelines for recording high-q
 
     - [-] [4K-resolution version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)
         - [x] DL3DV-1K videos, frames, camera poses.
-        - [-] DL3DV-2K videos, frames, camera poses.
+        - [ ] DL3DV-2K videos, frames, camera poses.
       
     - [-] [1080P version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-1080P)
         - [x] DL3DV-3K: 3K scenes and camera pose.
-        - [-] DL3DV-4K: 4K scenes and camera pose.
+        - [ ] DL3DV-4K: 4K scenes and camera pose.
 
 
       
