@@ -90,13 +90,13 @@ We have formulated the following requirements as guidelines for recording high-q
 - [ ] 10K Full Dataset Release:
     The 10K 4K-resolution videos are extremly large (Roughly 7T). The 4K-resolution image frames with poses are even larger (More than 10T). So we provide two versions: **4K-resolution version** and **1080P version**. **4K-resolution version** is the original version that has 4K-resolution original videos, 4K-resolution image frames with camera poses. **1080P version** is a "light" version for most basic needs. 1080P version has all 10K scenes, but only the 1080P frames with camera poses. Both datasets can be downloaded either by git or a download script that provides subset downloading.
 
-    Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the dataset from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
+    Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the **4K-resolution version** from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)** or **1080P version** from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-1080P)**. If your singed term of use is valid, you will be approved and allowed to download.
 
-    - [-] 4K-resolution version
+    - [-] [4K-resolution version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)
         - [x] DL3DV-1K videos, frames, camera poses.
         - [-] DL3DV-2K videos, frames, camera poses.
       
-    - [-] 1080P version 
+    - [-] [1080P version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-1080P)
         - [x] DL3DV-3K: 3K scenes and camera pose.
         - [-] DL3DV-4K: 4K scenes and camera pose.
 
