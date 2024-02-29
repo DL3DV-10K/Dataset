@@ -80,7 +80,6 @@ We have formulated the following requirements as guidelines for recording high-q
 - [x] Free download sample videos (11 scenes)
 	- [x] Access [here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main)
 
-
 - [ ] Benchmark dataset release (140 scenes)
 	- [x] Raw videos
 	- [x] Benchmark images, camera pose (**Ready for download**)
@@ -88,10 +87,9 @@ We have formulated the following requirements as guidelines for recording high-q
          * Step 2: The user is expected to sign the **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and **request the dataset from [here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
-
 - [ ] 10K Full Dataset Release:
-	- [x] DL3DV-3K is available: inlcuding 3K scenes at 1080p resolution and camera pose.
-	- [x] DL3DV-1K video is available: including 1K videos at 4k resolution.
+	- [x] DL3DV-3K (1080P version) is available: inlcuding 3K scenes at 1080p resolution and camera pose.
+	- [x] DL3DV-1K (4K resolution version) video is available: including 1K videos/poses.
 	* Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the dataset from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
 
       
