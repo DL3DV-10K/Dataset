@@ -88,7 +88,7 @@ We have formulated the following requirements as guidelines for recording high-q
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
 - [ ] 10K Full Dataset Release:
-    The 10K 4K-resolution videos are extremly large (Roughly 7T). The 4K-resolution image frames with poses are even larger (More than 10T). So we provide two versions: **4K-resolution version** and **1080P version**. 4K version is the original version that has 4K-resolution original videos, 4K-resolution image frames with camera poses. 1080P version is a "light" version for most basic needs. 1080P version has all 10K scenes, but only the 1080P frames with camera poses. Both datasets can be downloaded either by git or a download script that provides subset downloading.
+    The 10K 4K-resolution videos are extremly large (Roughly 7T). The 4K-resolution image frames with poses are even larger (More than 10T). So we provide two versions: **4K-resolution version** and **1080P version**. **4K-resolution version** is the original version that has 4K-resolution original videos, 4K-resolution image frames with camera poses. **1080P version** is a "light" version for most basic needs. 1080P version has all 10K scenes, but only the 1080P frames with camera poses. Both datasets can be downloaded either by git or a download script that provides subset downloading.
 
     Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the dataset from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
 
