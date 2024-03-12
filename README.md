@@ -87,26 +87,25 @@ We have formulated the following requirements as guidelines for recording high-q
          * Step 2: The user is expected to sign the **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and **request the dataset from [here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
-- [ ] 10K Full Dataset Release:
-    The 10K 4K-resolution videos are extremly large (Roughly 7T). The 4K-resolution image frames with poses are even larger (More than 10T). So we provide two versions: **4K-resolution version** and **1080P version**. **4K-resolution version** is the original version that has 4K-resolution original videos, 4K-resolution image frames with camera poses. **1080P version** is a "light" version for most basic needs. 1080P version has all 10K scenes, but only the 1080P frames with camera poses. Both datasets can be downloaded either by git or a download script that provides subset downloading.
+- [-] 10K Full Dataset Release:
+  The whole dataset is extremly large. Here are different versions for different needs.
+  - 480P resolution frames with poses (~730G). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-480P).
+  - 960P resolution frames with poses (~2.8T).[Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-960P).
+  - 2K resolution frames with poses (~11T). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-2K).
+  - 4K resolution frames with poses (~44T). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-4K).
+  - 4K videos (~7T). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-video).
+  - COLMAP cache folders (may be useful if you need post-processing based on those cach). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-ColmapCache).
 
-    Sign the above **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and request the **4K-resolution version** from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)** or **1080P version** from **[here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-1080P)**. If your singed term of use is valid, you will be approved and allowed to download.
+  ~~Sign the above DL3DV-10K Terms of Use, send it to ling58@purdue.edu and request the 4K-resolution version from here or 1080P version from here. If your singed term of use is valid, you will be approved and allowed to download.~~
 
-    - [-] [4K-resolution version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)
-        - [x] DL3DV-1K videos, frames, camera poses.
-        - [ ] DL3DV-2K videos, frames, camera poses.
-      
-    - [-] [1080P version](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-1080P)
-        - [x] DL3DV-3K: 3K scenes and camera pose.
-        - [ ] DL3DV-4K: 4K scenes and camera pose.
+  Please go to the relevant huggingface dataset page and request the access. If you request the access, you automatically sign our term of use and license and can access the dataset. 
 
+  **Note, the latest license can be used for commercial use as well. But it is the user's responsibility to keep the use appropriately. The DL3DV organization disclaims any responsibility for the misuse, inappropriate use, or unethical application of the dataset by individuals or entities who download or access it. More details can be found in our license.**
 
-      
-**The downloading site is still under developping. Stay tuned!**
 
 ## License
 
-DL3DV-10K is released under the DL3DV-10K Terms of Use, and the code is released under the Attribution-NonCommercial 4.0 International License. The **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
+DL3DV-10K is released under the DL3DV-10K Terms of Use. ~~and the code is released under the Attribution-NonCommercial 4.0 International License.~~ The **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
 
 Copyright (c) 2024
 
