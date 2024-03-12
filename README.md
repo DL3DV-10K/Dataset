@@ -98,9 +98,57 @@ We have formulated the following requirements as guidelines for recording high-q
 
   ~~Sign the above DL3DV-10K Terms of Use, send it to ling58@purdue.edu and request the 4K-resolution version from here or 1080P version from here. If your singed term of use is valid, you will be approved and allowed to download.~~
 
-  Please go to the relevant huggingface dataset page and request the access. If you request the access, you automatically sign our term of use and license and can access the dataset. 
+  Please go to the relevant huggingface dataset page and request the access. If you request the access, you automatically sign our term of use and license and can access the dataset. **Note, the latest license can be used for commercial use as well. But it is the user's responsibility to keep the use appropriately. The DL3DV organization disclaims any responsibility for the misuse, inappropriate use, or unethical application of the dataset by individuals or entities who download or access it. More details can be found in our license.**
 
-  **Note, the latest license can be used for commercial use as well. But it is the user's responsibility to keep the use appropriately. The DL3DV organization disclaims any responsibility for the misuse, inappropriate use, or unethical application of the dataset by individuals or entities who download or access it. More details can be found in our license.**
+  We further provide a [download script](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) here to download a subset. First make sure you have applied for the access (See above). The usage: 
+
+  ```Bash
+  usage: download.py [-h] --odir ODIR --subset {1K,2K,3K,4K,5K,6K,7K,8K,9K,10K} --resolution {4K,2K,960P,480P} --file_type {images+poses,video,colmap_cache} [--hash HASH]
+                    [--clean_cache]
+
+  optional arguments:
+    -h, --help            show this help message and exit
+    --odir ODIR           output directory
+    --subset {1K,2K,3K,4K,5K,6K,7K,8K,9K,10K}
+                          The subset of the benchmark to download
+    --resolution {4K,2K,960P,480P}
+                          The resolution to donwnload
+    --file_type {images+poses,video,colmap_cache}
+                          The file type to download
+    --hash HASH           If set subset=hash, this is the hash code of the scene to download
+    --clean_cache         If set, will clean the huggingface cache to save space
+  ```
+
+  Here are some examples:
+  ```Bash
+  # Make sure you have applied for the access.
+  # Use this to download the download.py script 
+  wget https://raw.githubusercontent.com/DL3DV-10K/Dataset/main/scripts/download.py 
+
+  # Download 480P resolution images and poses, 0~1K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 1K --resolution 480P --file_type images+poses --clean_cache
+
+
+  # Download 960P resolution images and poses, 0~1K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 1K --resolution 960P --file_type images+poses --clean_cache
+
+
+  # Download 2K resolution images and poses, 0~1K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 1K --resolution 2K --file_type images+poses --clean_cache
+
+
+  # Download 4K resolution images and poses, 0~1K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 1K --resolution 4K --file_type images+poses --clean_cache
+
+
+  # Download 4K resolution videos, 0~1K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 1K --resolution 4K --file_type video --clean_cache
+
+
+  # Download 480P resolution images and poses, 1K~2K subset, output to DL3DV-10K directory   
+  python download.py --odir DL3DV-10K --subset 2K --resolution 480P --file_type images+poses --clean_cache
+  ```
+
 
 
 ## License
