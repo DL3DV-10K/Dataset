@@ -100,7 +100,9 @@ We have formulated the following requirements as guidelines for recording high-q
 
   Please go to the relevant huggingface dataset page and request the access. If you request the access, you automatically sign our term of use and license and can access the dataset. **Note, the latest license can be used for commercial use as well. But it is the user's responsibility to keep the use appropriately. The DL3DV organization disclaims any responsibility for the misuse, inappropriate use, or unethical application of the dataset by individuals or entities who download or access it. More details can be found in our license.**
 
-  We further provide a [download script](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) here to download a subset. First make sure you have applied for the access (See above). The usage: 
+  If you have enough space, you can use git to download a dataset from huggingface. See this [link](https://huggingface.co/docs/hub/en/datasets-downloading). 480P/960P versions should satisfies most needs. 
+
+  If you do not have enough space, we further provide a [download script](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) here to download a subset. First make sure you have applied for the access (See above). The usage: 
 
   ```Bash
   usage: download.py [-h] --odir ODIR --subset {1K,2K,3K,4K,5K,6K,7K,8K,9K,10K} --resolution {4K,2K,960P,480P} --file_type {images+poses,video,colmap_cache} [--hash HASH]
