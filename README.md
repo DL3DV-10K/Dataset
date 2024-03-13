@@ -102,7 +102,13 @@ We have formulated the following requirements as guidelines for recording high-q
 
   If you have enough space, you can use git to download a dataset from huggingface. See this [link](https://huggingface.co/docs/hub/en/datasets-downloading). 480P/960P versions should satisfies most needs. 
 
-  If you do not have enough space, we further provide a [download script](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) here to download a subset. First make sure you have applied for the access (See above). The usage: 
+  If you do not have enough space, we further provide a [download script](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) here to download a subset. First make sure you have applied for the access (See above). To set up the environment for the script, call this in your python virtual environment:
+
+  ```Bash
+  pip install huggingface_hub tqdm pandas
+  ```
+
+  The usage for the download.py: 
 
   ```Bash
   usage: download.py [-h] --odir ODIR --subset {1K,2K,3K,4K,5K,6K,7K,8K,9K,10K} --resolution {4K,2K,960P,480P} --file_type {images+poses,video,colmap_cache} [--hash HASH]
