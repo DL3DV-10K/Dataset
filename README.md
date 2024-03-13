@@ -170,6 +170,11 @@ Despite our best efforts to anonymize data, there may be instances where sensiti
 
 **Want to contribute the DL3DV-10K dataset?** Upload your video [here](https://app.box.com/s/df2splzjgd6bkwea02x8lx13wbstd62t).
 
+## About
+The DL3DV-10K team is a non-profit organization with members inlcuding the authors of **[DL3DV-10K paper](https://arxiv.org/abs/2312.16256)**  and volunteers who contribute to the dataset. Our mission is to make large-scale of deep learning models and datasets available to the general public.
+
+
+
 
 ## BibTeX
 If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/2312.16256).
