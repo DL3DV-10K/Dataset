@@ -77,6 +77,10 @@ We have formulated the following requirements as guidelines for recording high-q
 
 
 ## Dataset Download
+### Dataset Preview 
+We provide a preview page [here](https://htmlpreview.github.io/?https://github.com/DL3DV-10K/Dataset/blob/main/visualize/index.html). The preview page has a snapshot of each scene, its hash code and labels. Some of the missing labels should be updated soon.
+
+### Download Instructions
 - [x] Free download sample videos (11 scenes)
 	- [x] Access [here](https://huggingface.co/datasets/DL3DV/DL3DV-10K-Sample/tree/main)
 
