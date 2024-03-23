@@ -70,7 +70,10 @@ def hf_download_path(repo: str, rel_path: str, odir: str, max_try: int = 5):
                                 local_dir_use_symlinks=False)
             return True
 
-        except BaseException as e:
+        except KeyboardInterrupt:
+            print('Keyboard Interrupt. Exit.')
+            exit()
+        finally:
             traceback.print_exc()
             counter += 1
             print(f'Retry {counter}')
@@ -223,14 +226,15 @@ if __name__ == '__main__':
     parser.add_argument('--clean_cache', action='store_true', help='If set, will clean the huggingface cache to save space')
     params = parser.parse_args()
 
-    # TODO, change this when we finish uploading all the dataset
     assert params.subset in ['1K', '2K', '3K', '4K'], 'Only support subset 1K, 2K, 3K, 4K so far'
-    assert params.file_type in ['images+poses', 'video'], 'Only support file_type images+poses, video so far. Working on colmap_cache now.'
+    assert params.file_type in ['images+poses', 'video', 'colmap_cache'], 'Only support file_type images+poses, video so far. Working on colmap_cache now.'
 
     if params.file_type == 'images+poses':
         repo = resolution2repo[params.resolution]
     elif params.file_type == 'video':
         repo = 'DL3DV/DL3DV-ALL-video'
+    elif params.file_type == 'colmap_cache':
+        repo = 'DL3DV/DL3DV-ALL-ColmapCache'
 
     if not verify_access(repo):
         print(f'You have not grant the access yet. Go to relevant huggingface repo (https://huggingface.co/datasets/{repo}) and apply for the access.')
