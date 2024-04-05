@@ -6,7 +6,7 @@
 
 This repo helps you get ready to download all the DL3DV-10K dataset.
 
-<img src="imgs/img_2.jpg" width="1000px">
+<img src="imgs/teaser.jpg" width="1000px">
 
 ---
 <p align="center">
