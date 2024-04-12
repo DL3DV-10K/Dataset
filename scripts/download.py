@@ -76,7 +76,7 @@ def hf_download_path(repo: str, rel_path: str, odir: str, max_try: int = 5):
         finally:
             traceback.print_exc()
             counter += 1
-            print(f'Retry {counter}')
+            print(f'Downloading summary {counter}')
     
 
 def download_from_url(url: str, ofile: str):
@@ -226,8 +226,8 @@ if __name__ == '__main__':
     parser.add_argument('--clean_cache', action='store_true', help='If set, will clean the huggingface cache to save space')
     params = parser.parse_args()
 
-    assert params.subset in ['1K', '2K', '3K', '4K'], 'Only support subset 1K, 2K, 3K, 4K so far'
-    assert params.file_type in ['images+poses', 'video', 'colmap_cache'], 'Only support file_type images+poses, video so far. Working on colmap_cache now.'
+    assert params.subset in ['1K', '2K', '3K', '4K', '5K', '6K', '7K'], 'Only support subset 1K-7K so far'
+    assert params.file_type in ['images+poses', 'video', 'colmap_cache'], 'Check the file_type input.'
 
     if params.file_type == 'images+poses':
         repo = resolution2repo[params.resolution]
@@ -244,4 +244,3 @@ if __name__ == '__main__':
         print('Download Done. Refer to', params.odir)
     else:
         print(f'Download to {params.odir} failed. See error messsage.')
-
