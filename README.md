@@ -185,11 +185,12 @@ The DL3DV-10K team is a non-profit organization with members inlcuding the autho
 If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/2312.16256).
 
 ```
-@article{ling2023dl3dv,
-  title={DL3DV-10K: A Large-Scale Scene Dataset for Deep Learning-based 3D Vision},
+@inproceedings{ling2024dl3dv,
+  title={Dl3dv-10k: A large-scale scene dataset for deep learning-based 3d vision},
   author={Ling, Lu and Sheng, Yichen and Tu, Zhi and Zhao, Wentian and Xin, Cheng and Wan, Kun and Yu, Lantao and Guo, Qianyu and Yu, Zixun and Lu, Yawen and others},
-  journal={arXiv preprint arXiv:2312.16256},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={22160--22169},
+  year={2024}
 }
 
 ```
