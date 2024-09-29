@@ -92,7 +92,7 @@ We provide a preview page [here](https://htmlpreview.github.io/?https://github.c
            <!--* Step 2: The user is expected to sign the **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, send it to `ling58@purdue.edu` and **request the dataset from [here](https://huggingface.co/datasets/DL3DV/DL3DV-ALL)**. If your singed term of use is valid, you will be approved and allowed to download.-->
    	- [ ] Benchmark trained weights for 3D Gaussian Splatting, ZipNeRF, Mip-NeRF 360, Instant NGP, and Nerfacto ( **Coming soon**)
 
-- [-] 10K Full Dataset Release:
+- [X] 10K Full Dataset Release:
   The whole dataset is extremly large. Here are different versions for different needs.
   - 480P resolution frames with poses (~730G). [Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-480P).
   - 960P resolution frames with poses (~2.8T).[Dataset link](https://huggingface.co/datasets/DL3DV/DL3DV-ALL-960P).
