@@ -66,17 +66,16 @@ def hf_download_path(repo: str, rel_path: str, odir: str, max_try: int = 5):
                                 filename=rel_path, 
                                 repo_type='dataset', 
                                 local_dir=odir, 
-                                cache_dir=join(odir, '.cache'), 
-                                local_dir_use_symlinks=False)
+                                cache_dir=join(odir, '.cache'))
             return True
 
         except KeyboardInterrupt:
             print('Keyboard Interrupt. Exit.')
             exit()
-        finally:
+        except BaseException as e:
             traceback.print_exc()
             counter += 1
-            print(f'Downloading summary {counter}')
+            # print(f'Downloading summary {counter}')
     
 
 def download_from_url(url: str, ofile: str):
@@ -105,8 +104,11 @@ def clean_huggingface_cache(output_dir: str, repo: str):
     :param output_dir: the huggingface repo 
     """    
     repo_cache_dir = repo.replace('/', '--')
-    cur_cache_dir = join(output_dir, '.cache', f'datasets--{repo_cache_dir}')
-    shutil.rmtree(cur_cache_dir)
+    # cur_cache_dir = join(output_dir, '.cache', f'datasets--{repo_cache_dir}')
+    cur_cache_dir = join(output_dir, '.cache')
+
+    if os.path.exists(cur_cache_dir):
+        shutil.rmtree(cur_cache_dir)
     
 
 def get_download_list(subset_opt: str, hash_name: str, reso_opt: str, file_type: str, output_dir: str):
@@ -219,14 +221,13 @@ def download_dataset(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--odir', type=str, help='output directory', required=True)
-    parser.add_argument('--subset', choices=['1K', '2K', '3K', '4K', '5K', '6K', '7K', '8K', '9K', '10K'], help='The subset of the benchmark to download', required=True)
+    parser.add_argument('--subset', choices=['1K', '2K', '3K', '4K', '5K', '6K', '7K', '8K', '9K', '10K', '11K'], help='The subset of the benchmark to download', required=True)
     parser.add_argument('--resolution', choices=['4K', '2K', '960P', '480P'], help='The resolution to donwnload', required=True)
     parser.add_argument('--file_type', choices=['images+poses', 'video', 'colmap_cache'], help='The file type to download', required=True, default='images+poses')
     parser.add_argument('--hash', type=str, help='If set subset=hash, this is the hash code of the scene to download', default='')
     parser.add_argument('--clean_cache', action='store_true', help='If set, will clean the huggingface cache to save space')
     params = parser.parse_args()
 
-    assert params.subset in ['1K', '2K', '3K', '4K', '5K', '6K', '7K'], 'Only support subset 1K-7K so far'
     assert params.file_type in ['images+poses', 'video', 'colmap_cache'], 'Check the file_type input.'
 
     if params.file_type == 'images+poses':
