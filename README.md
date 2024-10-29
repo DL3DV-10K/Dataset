@@ -22,6 +22,11 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
 
 </div>
 
+## News 🔥🔥🔥
+* [DepthSplat](https://github.com/cvg/depthsplat) further builds on top of DL3DV. Take a look at their work and processed [dataset](https://github.com/cvg/depthsplat/blob/main/DATASETS.md)!
+* To help you create teaser image/videp. We released all the drone videos to DL3DV huggingface: [drone](https://huggingface.co/datasets/DL3DV/DL3DV-Drone).
+* **We released all 10K videos/images/poses to huggingface!** Remember to update the [download.py](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) script.
+
 
 ## Abstract
 We have witnessed significant progress in deep learning-based 3D vision, ranging from neural radiance field (NeRF) based 3D representation learning to applications in novel view synthesis (NVS). However, existing scene-level datasets for deep learning-based 3D vision, limited to either synthetic environments or a narrow selection of real-world scenes, are quite insufficient. This insufficiency not only hinders a comprehensive benchmark of existing methods but also caps what could be explored in deep learning-based 3D analysis. To address this critical gap, we present DL3DV-10K, a large-scale scene dataset, featuring 51.2 million frames from 10,510 videos captured from 65 types of point-of-interest (POI) locations, covering both bounded and unbounded scenes, with different levels of reflection, transparency, and lighting. We conducted a comprehensive benchmark of recent NVS methods on DL3DV-10K, which revealed valuable insights for future research in NVS. In addition, we have obtained encouraging results in a pilot study to learn generalizable NeRF from DL3DV-10K, which manifests the necessity of a large-scale scene-level dataset to forge a path toward a foundation model for learning 3D representation.
@@ -194,12 +199,6 @@ If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/
 }
 
 ```
-
-<!-- ## Dataset Distributions
-
-## Download 
-### DL3DV-10K Dataset
-**Stay tuned!**
-
-### NVS Benchmark
- -->
+## Related Works 
+* DL3DV data is mostly processed by [*NeRFstudio*](https://github.com/nerfstudio-project/nerfstudio/). All the data convention follows the NeRFStudio convention.
+* [DepthSplat](https://github.com/cvg/depthsplat/tree/main) is a very cool work that builds on DL3DV. Remeber to take a look!
