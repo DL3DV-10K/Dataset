@@ -60,7 +60,6 @@ def hf_download_path(repo: str, rel_path: str, odir: str, max_try: int = 5):
         if counter >= max_try:
             print(f"ERROR: Download {repo}/{rel_path} failed.")
             return False
-
         try:
             api.hf_hub_download(repo_id=repo, 
                                 filename=rel_path, 
@@ -144,7 +143,8 @@ def get_download_list(subset_opt: str, hash_name: str, reso_opt: str, file_type:
     cache_folder = join(output_dir, '.cache') 
     meta_file = join(cache_folder, 'DL3DV-valid.csv')
     os.makedirs(cache_folder, exist_ok=True)
-    assert download_from_url(meta_link, meta_file), 'Download meta file failed.'
+    if not os.path.exists(meta_file):
+        assert download_from_url(meta_link, meta_file), 'Download meta file failed.'
 
     df = pd.read_csv(meta_file)
 
@@ -175,10 +175,19 @@ def download(download_list: list, output_dir: str, is_clean_cache: bool):
     :param is_clean_cache: if set, will clean the huggingface cache to save space 
     """	
     succ_count = 0
+    
     for item in tqdm(download_list, desc='Downloading'):
         repo = item['repo']
         rel_path = item['rel_path']
+        
+        output_path = os.path.join(output_dir, rel_path)
+        output_path = output_path.replace('.zip', '')
+        # skip if already exists locally
+        if os.path.exists(output_path):
+            succ_count += 1
+            continue
         succ = hf_download_path(repo, rel_path, output_dir)
+
 
         if succ:
             succ_count += 1
