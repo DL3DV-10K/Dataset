@@ -23,7 +23,7 @@ This repo helps you get ready to download all the DL3DV-10K dataset.
 </div>
 
 ## News 🔥🔥🔥
-* [Cosmos](https://github.com/NVIDIA/Cosmos) employes DL3DV for camera control post-training in the world Foundation Model.
+* [Cosmos](https://github.com/NVIDIA/Cosmos) employes DL3DV for **camera control** post-training in the World Foundation Model.
 * [DepthSplat](https://github.com/cvg/depthsplat) further builds on top of DL3DV. Take a look at their work and processed [dataset](https://github.com/cvg/depthsplat/blob/main/DATASETS.md)!
 * To help you create teaser image/videp. We released all the drone videos to DL3DV huggingface: [drone](https://huggingface.co/datasets/DL3DV/DL3DV-Drone).
 * **We released all 10K videos/images/poses to huggingface!** Remember to update the [download.py](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) script.
