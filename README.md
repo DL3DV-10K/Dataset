@@ -2,7 +2,7 @@
 	
 # DL3DV-10K Dataset 
 	
-**DL3DV-10K is a dataset of real-world scene-level videos with scene annotations and camera parameters.**
+**DL3DV-10K is a dataset of real-world videos with scene annotations and camera parameters.**
 
 This repo helps you get ready to download all the DL3DV-10K dataset.
 
