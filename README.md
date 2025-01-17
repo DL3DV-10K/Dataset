@@ -4,7 +4,8 @@
 	
 **DL3DV-10K is a dataset of real-world videos with scene annotations and camera parameters.**
 
-This repo helps you get ready to download all the DL3DV-10K dataset.
+<!-- This repo helps you get ready to download all the DL3DV-10K dataset. -->
+*Note: DL3DV-10K is a student-led project. Contact [Lu Ling](mailto:luling0506@gmail.com) for any questions*. 
 
 <img src="imgs/teaser.jpg" width="1000px">
 
@@ -174,7 +175,7 @@ We provide a preview page [here](https://htmlpreview.github.io/?https://github.c
 
 DL3DV-10K is released under the DL3DV-10K Terms of Use. <!--~~and the code is released under the Attribution-NonCommercial 4.0 International License.~~--> The **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md) of the license are available in this repository.
 
-Copyright (c) 2024
+Copyright (c) 2023
 
 ## Issues
 Despite our best efforts to anonymize data, there may be instances where sensitive details are inadvertently included. If you identify any such issues within the dataset (scenes), don't hesitate to get in touch with us at [issue](mailto:ling58@purdue.edu). We will manually redact any sensitive information to ensure the privacy and integrity of the dataset. 
@@ -182,9 +183,27 @@ Despite our best efforts to anonymize data, there may be instances where sensiti
 **Want to contribute the DL3DV-10K dataset?** Upload your video [here](https://app.box.com/s/df2splzjgd6bkwea02x8lx13wbstd62t).
 
 ## About
-The DL3DV-10K team is a non-profit organization with members inlcuding the authors of **[DL3DV-10K paper](https://arxiv.org/abs/2312.16256)**  and volunteers who contribute to the dataset. Our mission is to make large-scale of deep learning models and datasets available to the general public.
+The DL3DV-10K project is leaded by [Lu Ling](https://luling06.github.io/).  The dataset was created through the collective efforts of the **[Dataset Collection Team](https://dl3dv-10k.github.io/DL3DV-10K/#Team)**  and dedicated volunteers. Our mission is to make large-scale deep learning models and datasets widely accessible to the general public. The core contributors to the **[Dataset Collection Team](https://dl3dv-10k.github.io/DL3DV-10K/#Team)** retain exclusive rights to interpret and define the use of the DL3DV-10K dataset. Details can be found in **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy](https://github.com/DL3DV-10K/Dataset/blob/main/License.md).
 
+## Contribution and Acknowledgement 
+### Dataset Contribution
+**Lu Ling**: proposed and led the project. Designed the pipeline of the dataset, including data acquisition and data processing.
 
+**Yichen Sheng**: worked on the data processing. 
+
+**Yichen Sheng, Lu Ling, Wentian Zhao, Kun Wan, Cheng Xin, Zixun Yu, Zhi Tu, Qianyu Guo, Yawen Lu, Xuanmao Li, Aniruddha Mukherjee, Rohan Ashok, Xingpeng Sun, Xiangrui Kong**: collected and labeled the data.
+
+### Paper Contribution 
+**Lu Ling(Corresponding author)**: worked on paper writing, conducted part of the experiments.
+
+**Yichen Sheng**: conducted part of the experiments.
+
+**Lantao Yu, Zixun Yu, Yawen Lu, Qianyu Guo, Kun Wan, Cheng Xin**: worked on proofreading.
+
+**Bedrich Benes, Gang Hua, Aniket Bera, Hao Kang, Tianyi Zhang**: advised on paper writing.
+
+### Acknowledgement
+We extend our heartfelt gratitude to our esteemed colleagues: Zhaopeng Wang, Jinghua Wu, Yueting Zhao, Haomeng Zhang, Aaditya Kharel, Izel Avila, Rahul Nahar, Mayesha Monjur, and Neel Acharya. Your invaluable contributions were instrumental in our endeavor to compile the DL3DV-10K dataset. 
 
 
 ## BibTeX
