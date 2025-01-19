@@ -191,7 +191,7 @@ The DL3DV-10K project is led by [**Lu Ling**](https://luling06.github.io/).  The
 
 **Yichen Sheng**: worked on the data processing. 
 
-**Yichen Sheng, Lu Ling, Wentian Zhao, Kun Wan, Cheng Xin, Zixun Yu, Zhi Tu, Qianyu Guo, Yawen Lu, Xuanmao Li, Aniruddha Mukherjee, Rohan Ashok, Xingpeng Sun, Xiangrui Kong**: collected and labeled the data.
+**Yichen Sheng, Lu Ling, Wentian Zhao, Cheng Xin, Kun Wan, Lantao Yu, Zixun Yu, Qianyu Guo, Yawen Lu, Zhi Tu, Xuanmao Li, Aniruddha Mukherjee, Rohan Ashok, Xingpeng Sun, Xiangrui Kong**: collected and labeled the data.
 
 ### Paper Contribution 
 **Lu Ling(Corresponding author)**: worked on paper writing, conducted part of the experiments.
