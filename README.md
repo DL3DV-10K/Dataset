@@ -24,7 +24,8 @@
 </div>
 
 ## News 🔥🔥🔥
-* [Cosmos](https://github.com/NVIDIA/Cosmos) and [stabiliy.ai](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control) employes DL3DV for **camera control** post-training in the World Foundation Model.
+* [stabiliy.ai](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control) employes DL3DV for **camera control** video generation.
+* [Cosmos](https://github.com/NVIDIA/Cosmos) employes DL3DV for **camera control** post-training in the World Foundation Model.
 * [DepthSplat](https://github.com/cvg/depthsplat) further builds on top of DL3DV. Take a look at their work and processed [dataset](https://github.com/cvg/depthsplat/blob/main/DATASETS.md)!
 * To help you create teaser image/videp. We released all the drone videos to DL3DV huggingface: [drone](https://huggingface.co/datasets/DL3DV/DL3DV-Drone).
 * **We released all 10K videos/images/poses to huggingface!** Remember to update the [download.py](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) script.
