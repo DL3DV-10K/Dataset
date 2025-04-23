@@ -184,7 +184,12 @@ Despite our best efforts to anonymize data, there may be instances where sensiti
 **Want to contribute the DL3DV-10K dataset?** Upload your video [here](https://app.box.com/s/df2splzjgd6bkwea02x8lx13wbstd62t).
 
 ## About
-The DL3DV-10K project is led by [**Lu Ling**](https://luling06.github.io/).  The dataset was created through the collective efforts of the **[Dataset Collection Team](https://dl3dv-10k.github.io/DL3DV-10K/#Team)**  and dedicated volunteers. Our mission is to make large-scale deep learning models and datasets widely accessible to the general public. On behalf of the dataset collection team, [**Lu Ling**](https://luling06.github.io/) retains exclusive rights to interpret and define the use of the DL3DV-10K dataset. Details can be found in **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, disclaimer, and the [copy of the license](https://github.com/DL3DV-10K/Dataset/blob/main/License.md).
+The DL3DV-10K project is led by [**Lu Ling**](https://luling06.github.io/). The dataset was created through the collective efforts of the Dataset Collection Team and dedicated volunteers. Our mission is to make large-scale deep learning datasets for 3D vision widely accessible to the general public.
+
+**[Lu Ling](mailto:luling0506@gmail.com) serves as the primary point of contact for the DL3DV-10K dataset**, overseeing roadmap development, external communication, and providing interpretation and scope guidance regarding the dataset’s intended use on behalf of the Dataset Collection Team.
+For more information, please refer to the **[DL3DV-10K Terms of Use](https://github.com/DL3DV-10K/Dataset/blob/main/DL3DV-10K_term_of_use.pdf)**, the project disclaimer, and the [copy of the license](https://github.com/DL3DV-10K/Dataset/blob/main/License.md).
+
+
 
 ## Contribution and Acknowledgement 
 ### Dataset Contribution
