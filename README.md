@@ -206,7 +206,7 @@ For more information, please refer to the **[DL3DV-10K Terms of Use](https://git
 
 **Lantao Yu, Zixun Yu, Yawen Lu, Qianyu Guo, Kun Wan, Cheng Xin**: worked on proofreading.
 
-**Bedrich Benes, Gang Hua, Aniket Bera, Hao Kang, Tianyi Zhang**: advised on paper writing.
+**Bedrich Benes, Gang Hua, Aniket Bera, Hao Kang, Tianyi Zhang**: provided advisory input on the research framing and manuscript development..
 
 ### Acknowledgement
 We extend our heartfelt gratitude to our esteemed colleagues: Zhaopeng Wang, Jinghua Wu, Yueting Zhao, Haomeng Zhang, Aaditya Kharel, Izel Avila, Rahul Nahar, Mayesha Monjur, and Neel Acharya. Your invaluable contributions were instrumental in our endeavor to compile the DL3DV-10K dataset. 
