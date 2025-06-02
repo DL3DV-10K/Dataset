@@ -24,7 +24,7 @@
 </div>
 
 ## News 🔥🔥🔥
-* The first 7K of **DL3DV-3DGS** is processed by [FCGS](https://github.com/YihangChen-ee/FCGS) for compression and other usage and is now available at [DL3DV-GS-960P](https://huggingface.co/DL3DV).
+* The first 7K of **DL3DV-3DGS** is processed by [FCGS](https://github.com/YihangChen-ee/FCGS) and is now available at [DL3DV-GS-960P](https://huggingface.co/datasets/DL3DV/DL3DV-GS-960P)!
 * [stabiliy.ai](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control) employes DL3DV for **camera control** video generation.
 * [Cosmos](https://github.com/NVIDIA/Cosmos) employes DL3DV for **camera control** post-training in the World Foundation Model.
 * [DepthSplat](https://github.com/cvg/depthsplat) further builds on top of DL3DV. Take a look at their work and processed [dataset](https://github.com/cvg/depthsplat/blob/main/DATASETS.md)!
