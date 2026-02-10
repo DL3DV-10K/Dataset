@@ -26,10 +26,10 @@
 ## News 🔥🔥🔥
 * **We provide [DL3DV-Evaluation](https://huggingface.co/datasets/DL3DV/DL3DV-Evaluation) for test / evaluation. Note: Scenes in the DL3DV-Evaluation are not covered in the DL3DV-10K dataset**
 * The first 7K of **DL3DV-3DGS** is processed by [FCGS](https://github.com/YihangChen-ee/FCGS) and is now available at [DL3DV-GS-960P](https://huggingface.co/datasets/DL3DV/DL3DV-GS-960P)!
-* [stabiliy.ai](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control) employes DL3DV for **camera control** video generation.
-* [Cosmos](https://github.com/NVIDIA/Cosmos) employes DL3DV for **camera control** post-training in the World Foundation Model.
+* [stability.ai](https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control) employs DL3DV for **camera control** video generation.
+* [Cosmos](https://github.com/NVIDIA/Cosmos) employs DL3DV for **camera control** post-training in the World Foundation Model.
 * [DepthSplat](https://github.com/cvg/depthsplat) further builds on top of DL3DV. Take a look at their work and processed [dataset](https://github.com/cvg/depthsplat/blob/main/DATASETS.md)!
-* To help you create teaser image/videp. We released all the drone videos to DL3DV huggingface: [drone](https://huggingface.co/datasets/DL3DV/DL3DV-Drone).
+* To help you create teaser image/video, we released all the drone videos to DL3DV huggingface: [drone](https://huggingface.co/datasets/DL3DV/DL3DV-Drone).
 * **We released all 10K videos/images/poses to huggingface!** Remember to update the [download.py](https://github.com/DL3DV-10K/Dataset/blob/main/scripts/download.py) script.
 
 
@@ -229,4 +229,4 @@ If you found this dataset useful, please cite our [paper](https://arxiv.org/abs/
 ```
 ## Related Works 
 * DL3DV data is mostly processed by [*NeRFstudio*](https://github.com/nerfstudio-project/nerfstudio/). All the data convention follows the NeRFStudio convention.
-* [DepthSplat](https://github.com/cvg/depthsplat/tree/main) is a very cool work that builds on DL3DV. Remeber to take a look!
+* [DepthSplat](https://github.com/cvg/depthsplat/tree/main) is a very cool work that builds on DL3DV. Remember to take a look!
